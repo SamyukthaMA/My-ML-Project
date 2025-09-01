@@ -4,6 +4,8 @@ Overview
 
 This project focuses on predicting the popularity of music albums using various machine learning algorithms. Leveraging a dataset sourced from Kaggle containing audio features (e.g., danceability, energy, tempo, acousticness) and album metadata, the study compares performance across multiple models to determine the best predictors.
 
+
+
 Algorithms Compared
 
 Linear Regression
@@ -22,6 +24,8 @@ Logistic Regression
 
 Graph Neural Network (GNN)
 
+
+
 Key Findings
 
 Random Forest and Graph Neural Networks generally outperform simpler models like Logistic Regression and SVM, achieving accuracies above 89%.
@@ -30,6 +34,8 @@ Statistical analysis using independent sample t-tests evaluates significance bet
 
 Ensemble and deep learning models handle complex, nonlinear data better, making them valuable for real-world music industry applications.
 
+
+
 Dataset
 
 Source: Kaggle
@@ -37,6 +43,8 @@ Source: Kaggle
 Size: 600+ instances
 
 Features: 20 audio-based and metadata attributes including tempo, energy, danceability, acousticness, and release year.
+
+
 
 Project Structure
 
@@ -50,10 +58,14 @@ presentation/ — Slides summarizing methodology, results, and conclusions
 
 README.md — Project description and guide
 
+
+
 Installation
 
 Install required packages using:
 pip install -r requirements.txt
+
+
 
 Usage
 
@@ -61,9 +73,13 @@ Open and run the Jupyter notebooks in the notebooks/ folder to explore data prep
 
 Visualizations and detailed results are available in the outputs/ folder.
 
+
+
 Contributing
 
 Contributions are welcome! Feel free to fork the repository, open issues for bugs or feature requests, and submit pull requests.
+
+
 
 References
 
@@ -76,6 +92,8 @@ Wilkes et al., 2021 – Audio and Visual Analysis for Music Genre Recognition
 Chen et al., 2018 – Nearest Neighbor Methods in Prediction
 
 Additional citations in project documentation
+
+
 
 License
 
